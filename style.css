@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+body {
+    background-color: #FFE7BE;  
+}
+.header img {
+    width: 930px;
+    height: 277px;
+    display: block;
+}
+.kapsa {
+    width: 940px;
+    margin: 0px auto;
+}
+.sol_taraf {
+    width: 240px;
+    background-color: #EAA521;
+    float: left;
+}
+.sol_taraf img {
+    display: block;
+}
+.sol_taraf ul li {
+    font-size: 20px;
+    color: white;
+    background-color: #34393D;
+    height:30px;
+    padding: 5px 30px;
+    transition: 1s ease;
+}
+.sol_taraf ul li a {
+    color: white;
+    text-decoration: none
+}
+.sol_taraf ul li a:hover{
+    background-color: #F19101;
+    border-right: 10px solid #FFCB16;
+    color: black;
+    padding-left: 40px;
+}
+.sag_taraf {
+    width: 690px;
+    float: left;
+}
+.sag_taraf .ust_menu {
+    background-color: #EAA623;
+    display: block;
+}
+.sag_taraf ul li {
+    float: left;
+}
+.sag_taraf ul li a {
+   line-height: 50px;
+    padding: 55px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    background-color: #EAA623;
+    border-right: 1px solid black;
+    border-radius: 56px;
+    transition: all 1s ease;
+}
+.sag_taraf ul li a:hover {
+    background-color: orangered;
+    padding-left: 20px;
+    padding-top: 1px;
+    border-top: 2px solid orangered;
+}
+.sag_taraf .ust_foto img{
+    display: block;
+    width: 698px;
+    height: 400px;
+}
+.sag_taraf .orta img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.temizle {
+    clear: both;
+}
+.icerik {
+    background-color: white;
+}
+.icerik h1,h2{
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+.icerik p {
+    text-align: justify;
+    padding: 5px;
+    margin: 10px;
+}
+.icerik ul {
+    margin-bottom: 10px;
+}
+.icerik .soz ul li {
+    height: 50px;
+    width: 720px;
+    margin: 10px auto;
+    padding: 10px auto;
+    text-align: center;
+    line-height: 50px;
+    background-color: #EAA623 ;
+    font-size: 18px;
+    border: 0px solid orange ;
+    border-radius: 25px;
+}
+.footer {
+    padding: 50px 5px auto;
+    width: 960px;
+    background-color: #34393D;
+    font-size: 18px;
+    text-align: center;
+    height: 60px;
+    border:2px solid black  ;
+    border-radius: 5px;
+    color: wheat;
+}
